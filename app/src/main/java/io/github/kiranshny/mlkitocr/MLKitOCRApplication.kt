@@ -1,5 +1,7 @@
 package io.github.kiranshny.mlkitocr
 
-class MLKitOCRApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-}
+@HiltAndroidApp
+class MLKitOCRApplication : Application()
